@@ -1,0 +1,56 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a grid region",
+        "description": "Choose the U.S. power grid region to track. Add the integration again to track more than one.",
+        "data": {
+          "grid_id": "Grid region"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This grid region is already set up.",
+      "cannot_connect": "Couldn't reach the GridVigil API. Try again in a few minutes."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "grid_stressed": {
+        "name": "Grid stressed"
+      }
+    },
+    "sensor": {
+      "pressure_score": {
+        "name": "Power Pressure Score"
+      },
+      "pressure_band": {
+        "name": "Pressure level",
+        "state": {
+          "good": "Low pressure",
+          "warning": "Moderate pressure",
+          "serious": "Elevated pressure",
+          "critical": "Critical pressure"
+        }
+      },
+      "demand": {
+        "name": "Demand"
+      },
+      "recent_peak_demand": {
+        "name": "Recent peak demand"
+      },
+      "reserve_margin": {
+        "name": "Reserve margin"
+      },
+      "wholesale_price": {
+        "name": "Wholesale price"
+      },
+      "carbon_intensity": {
+        "name": "Carbon intensity"
+      },
+      "weather_alerts": {
+        "name": "Active weather alerts"
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-29T12:31:30.496205+00:00",
+  "grids": [
+    {
+      "grid_id": "ercot",
+      "name": "ERCOT (Texas)",
+      "iso_rto": "ERCOT",
+      "states": [
+        "TX"
+      ],
+      "pressure_score": 44.3,
+      "pressure_band": "warning",
+      "pressure_band_label": "Moderate pressure",
+      "current_demand_mw": 56464.0,
+      "reserve_margin_pct": 18.29,
+      "status_url": "https://gridvigil.com/api/v1/grid/ercot/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/ercot/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/ercot/events"
+    },
+    {
+      "grid_id": "pjm",
+      "name": "PJM (Mid-Atlantic / Midwest)",
+      "iso_rto": "PJM",
+      "states": [
+        "PA",
+        "NJ",
+        "MD",
+        "DE",
+        "VA",
+        "OH",
+        "WV",
+        "KY",
+        "IL",
+        "IN",
+        "NC",
+        "MI",
+        "TN",
+        "DC"
+      ],
+      "pressure_score": 24.0,
+      "pressure_band": "good",
+      "pressure_band_label": "Low pressure",
+      "current_demand_mw": 83727.0,
+      "reserve_margin_pct": 29.7,
+      "status_url": "https://gridvigil.com/api/v1/grid/pjm/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/pjm/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/pjm/events"
+    },
+    {
+      "grid_id": "caiso",
+      "name": "CAISO (California)",
+      "iso_rto": "CAISO",
+      "states": [
+        "CA"
+      ],
+      "pressure_score": 37.4,
+      "pressure_band": "good",
+      "pressure_band_label": "Low pressure",
+      "current_demand_mw": 22887.0,
+      "reserve_margin_pct": 53.2,
+      "status_url": "https://gridvigil.com/api/v1/grid/caiso/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/caiso/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/caiso/events"
+    },
+    {
+      "grid_id": "miso",
+      "name": "MISO (Midcontinent)",
+      "iso_rto": "MISO",
+      "states": [
+        "MN",
+        "WI",
+        "IA",
+        "IN",
+        "MI",
+        "MO",
+        "AR",
+        "LA",
+        "MS",
+        "ND",
+        "SD"
+      ],
+      "pressure_score": 37.6,
+      "pressure_band": "good",
+      "pressure_band_label": "Low pressure",
+      "current_demand_mw": 70714.0,
+      "reserve_margin_pct": 7.9,
+      "status_url": "https://gridvigil.com/api/v1/grid/miso/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/miso/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/miso/events"
+    },
+    {
+      "grid_id": "spp",
+      "name": "SPP (Southwest Power Pool)",
+      "iso_rto": "SPP",
+      "states": [
+        "KS",
+        "OK",
+        "NE",
+        "SD",
+        "ND",
+        "NM"
+      ],
+      "pressure_score": 19.0,
+      "pressure_band": "good",
+      "pressure_band_label": "Low pressure",
+      "current_demand_mw": 30227.0,
+      "reserve_margin_pct": 32.4,
+      "status_url": "https://gridvigil.com/api/v1/grid/spp/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/spp/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/spp/events"
+    },
+    {
+      "grid_id": "nyiso",
+      "name": "NYISO (New York)",
+      "iso_rto": "NYISO",
+      "states": [
+        "NY"
+      ],
+      "pressure_score": 31.1,
+      "pressure_band": "good",
+      "pressure_band_label": "Low pressure",
+      "current_demand_mw": 14751.0,
+      "reserve_margin_pct": 24.5,
+      "status_url": "https://gridvigil.com/api/v1/grid/nyiso/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/nyiso/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/nyiso/events"
+    },
+    {
+      "grid_id": "isone",
+      "name": "ISO-NE (New England)",
+      "iso_rto": "ISO-NE",
+      "states": [
+        "MA",
+        "CT",
+        "RI",
+        "NH",
+        "VT",
+        "ME"
+      ],
+      "pressure_score": 57.8,
+      "pressure_band": "warning",
+      "pressure_band_label": "Moderate pressure",
+      "current_demand_mw": 12100.0,
+      "reserve_margin_pct": 18.3,
+      "status_url": "https://gridvigil.com/api/v1/grid/isone/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/isone/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/isone/events"
+    },
+    {
+      "grid_id": "southeast",
+      "name": "Southeast (non-ISO)",
+      "iso_rto": "Southeast",
+      "states": [
+        "GA",
+        "AL",
+        "SC",
+        "NC",
+        "TN",
+        "MS"
+      ],
+      "pressure_score": 23.5,
+      "pressure_band": "good",
+      "pressure_band_label": "Low pressure",
+      "current_demand_mw": 54768.0,
+      "reserve_margin_pct": null,
+      "status_url": "https://gridvigil.com/api/v1/grid/southeast/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/southeast/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/southeast/events"
+    },
+    {
+      "grid_id": "mountainwest",
+      "name": "Mountain West (non-ISO)",
+      "iso_rto": "Mountain West",
+      "states": [
+        "WA",
+        "OR",
+        "ID",
+        "MT",
+        "WY",
+        "NV",
+        "UT",
+        "CO",
+        "AZ"
+      ],
+      "pressure_score": 18.2,
+      "pressure_band": "good",
+      "pressure_band_label": "Low pressure",
+      "current_demand_mw": 26667.0,
+      "reserve_margin_pct": null,
+      "status_url": "https://gridvigil.com/api/v1/grid/mountainwest/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/mountainwest/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/mountainwest/events"
+    },
+    {
+      "grid_id": "florida",
+      "name": "Florida (non-ISO)",
+      "iso_rto": "Florida (FRCC)",
+      "states": [
+        "FL"
+      ],
+      "pressure_score": 35.3,
+      "pressure_band": "good",
+      "pressure_band_label": "Low pressure",
+      "current_demand_mw": 25068.0,
+      "reserve_margin_pct": 27.4,
+      "status_url": "https://gridvigil.com/api/v1/grid/florida/status",
+      "history_url": "https://gridvigil.com/api/v1/grid/florida/history",
+      "events_url": "https://gridvigil.com/api/v1/grid/florida/events"
+    }
+  ]
+}

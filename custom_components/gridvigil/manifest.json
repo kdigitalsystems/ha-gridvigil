@@ -1,0 +1,12 @@
+{
+  "domain": "gridvigil",
+  "name": "GridVigil",
+  "codeowners": ["@saqibkh"],
+  "config_flow": true,
+  "documentation": "https://github.com/kdigitalsystems/ha-gridvigil",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/kdigitalsystems/ha-gridvigil/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

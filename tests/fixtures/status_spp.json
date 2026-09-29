@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "grid_id": "spp",
+  "name": "SPP (Southwest Power Pool)",
+  "iso_rto": "SPP",
+  "states": [
+    "KS",
+    "OK",
+    "NE",
+    "SD",
+    "ND",
+    "NM"
+  ],
+  "generated_at": "2026-09-29T12:31:30.527144+00:00",
+  "status": {
+    "pressure_score": 19.0,
+    "pressure_band": "good",
+    "pressure_band_label": "Low pressure",
+    "confidence": "medium"
+  },
+  "demand": {
+    "current_mw": 30227.0,
+    "as_of": "2026-09-29T11:00:00+00:00",
+    "recent_peak_mw": 51644.0
+  },
+  "capacity": {
+    "reserve_margin_pct": 32.4,
+    "reserve_margin_source": "nerc_ltra",
+    "reserve_margin_as_of": "2026",
+    "operational_margin_pct": null,
+    "operational_margin_as_of": null
+  },
+  "generation_mix": [
+    {
+      "fuel_type": "BAT",
+      "mw": 7.0,
+      "share_pct": 0.0
+    },
+    {
+      "fuel_type": "COL",
+      "mw": 11479.0,
+      "share_pct": 32.6
+    },
+    {
+      "fuel_type": "NG",
+      "mw": 11775.0,
+      "share_pct": 33.4
+    },
+    {
+      "fuel_type": "NUC",
+      "mw": 1209.0,
+      "share_pct": 3.4
+    },
+    {
+      "fuel_type": "OIL",
+      "mw": 0.0,
+      "share_pct": 0.0
+    },
+    {
+      "fuel_type": "OTH",
+      "mw": 67.0,
+      "share_pct": 0.2
+    },
+    {
+      "fuel_type": "SUN",
+      "mw": 0.0,
+      "share_pct": 0.0
+    },
+    {
+      "fuel_type": "WAT",
+      "mw": 313.0,
+      "share_pct": 0.9
+    },
+    {
+      "fuel_type": "WND",
+      "mw": 10354.0,
+      "share_pct": 29.4
+    }
+  ],
+  "generation_mix_as_of": "2026-09-29T04:00:00+00:00",
+  "energy_mix_today": null,
+  "prices": null,
+  "interconnectors": [],
+  "carbon_intensity": {
+    "gco2_per_kwh": 437.9,
+    "as_of": "2026-09-29T04:00:00+00:00",
+    "source": "estimated_from_generation_mix"
+  },
+  "system_frequency": null,
+  "large_load_pipeline": null,
+  "outlook": {
+    "horizon_years": 5,
+    "narrative": "NERC's 2025 Long-Term Reliability Assessment projects Anticipated Reserve Margins for MRO-SPP across 5 years. A margin below the region's Reference Margin Level means NERC expects it to fall short of its own resource adequacy target that summer. Later years lean more on capacity that is planned rather than built.",
+    "series": [
+      {
+        "label": "Summer 2026",
+        "reserve_margin_pct": 32.4,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Summer 2027",
+        "reserve_margin_pct": 30.3,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Summer 2028",
+        "reserve_margin_pct": 28.4,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Summer 2029",
+        "reserve_margin_pct": 25.1,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Summer 2030",
+        "reserve_margin_pct": 22.6,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      }
+    ]
+  },
+  "near_term_forecast": null,
+  "weather": {
+    "active_alert_types": [
+      "Flood Watch"
+    ],
+    "max_temp_f": 91.0,
+    "temp_deviation_f": null,
+    "as_of": "2026-09-29T12:29:44.067038+00:00",
+    "max_severity": "Severe"
+  },
+  "data_sources": [
+    {
+      "source": "eia_v2_demand",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:42.546451+00:00"
+    },
+    {
+      "source": "eia_v2_fuel_mix",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:43.454393+00:00"
+    },
+    {
+      "source": "eia_860m",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:43.455667+00:00"
+    },
+    {
+      "source": "noaa_nws",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:44.067023+00:00"
+    },
+    {
+      "source": "nerc_ltra",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:44.067047+00:00"
+    }
+  ]
+}

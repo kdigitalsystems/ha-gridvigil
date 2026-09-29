@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0",
+  "grid_id": "ercot",
+  "name": "ERCOT (Texas)",
+  "iso_rto": "ERCOT",
+  "states": [
+    "TX"
+  ],
+  "generated_at": "2026-09-29T12:31:30.496703+00:00",
+  "status": {
+    "pressure_score": 44.3,
+    "pressure_band": "warning",
+    "pressure_band_label": "Moderate pressure",
+    "confidence": "high"
+  },
+  "demand": {
+    "current_mw": 56464.0,
+    "as_of": "2026-09-29T11:00:00+00:00",
+    "recent_peak_mw": 86168.0
+  },
+  "capacity": {
+    "reserve_margin_pct": 18.29,
+    "reserve_margin_source": "ercot_cdr",
+    "reserve_margin_as_of": "2026",
+    "operational_margin_pct": null,
+    "operational_margin_as_of": null
+  },
+  "generation_mix": [
+    {
+      "fuel_type": "BAT",
+      "mw": -302.0,
+      "share_pct": -0.4
+    },
+    {
+      "fuel_type": "COL",
+      "mw": 9488.0,
+      "share_pct": 13.9
+    },
+    {
+      "fuel_type": "NG",
+      "mw": 33067.0,
+      "share_pct": 48.5
+    },
+    {
+      "fuel_type": "NUC",
+      "mw": 4978.0,
+      "share_pct": 7.3
+    },
+    {
+      "fuel_type": "OTH",
+      "mw": 50.0,
+      "share_pct": 0.1
+    },
+    {
+      "fuel_type": "SUN",
+      "mw": 0.0,
+      "share_pct": 0.0
+    },
+    {
+      "fuel_type": "WAT",
+      "mw": 144.0,
+      "share_pct": 0.2
+    },
+    {
+      "fuel_type": "WND",
+      "mw": 20390.0,
+      "share_pct": 29.9
+    }
+  ],
+  "generation_mix_as_of": "2026-09-29T04:00:00+00:00",
+  "energy_mix_today": null,
+  "prices": {
+    "currency": "USD",
+    "as_of": "2026-09-29T12:00:00+00:00",
+    "market_average_basis": "single_zone",
+    "market_average_per_mwh": 27.07,
+    "zones": [],
+    "window_low_per_mwh": 22.52,
+    "window_high_per_mwh": 77.14,
+    "window_negative_intervals": 0,
+    "window_intervals": 32,
+    "window_hours": 31.0
+  },
+  "interconnectors": [],
+  "carbon_intensity": {
+    "gco2_per_kwh": 322.0,
+    "as_of": "2026-09-29T04:00:00+00:00",
+    "source": "estimated_from_generation_mix"
+  },
+  "system_frequency": null,
+  "large_load_pipeline": {
+    "queue_gw": 450.0,
+    "data_center_share_pct": null,
+    "as_of": "2026-09-29"
+  },
+  "outlook": {
+    "horizon_years": 5,
+    "narrative": "ERCOT's own Capacity, Demand and Reserves report projects planning reserve margins across 5 years; declining/negative values indicate the region is expected to fall short of its target reserve margin in that season.",
+    "series": [
+      {
+        "label": "Summer 2026",
+        "reserve_margin_pct": 18.29,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Summer 2027",
+        "reserve_margin_pct": 11.43,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Summer 2028",
+        "reserve_margin_pct": -1.33,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Summer 2029",
+        "reserve_margin_pct": -5.82,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Summer 2030",
+        "reserve_margin_pct": -12.66,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Winter 2026/2027",
+        "reserve_margin_pct": 22.1,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Winter 2027/2028",
+        "reserve_margin_pct": 4.31,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Winter 2028/2029",
+        "reserve_margin_pct": -8.25,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Winter 2029/2030",
+        "reserve_margin_pct": -17.27,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Winter 2030/2031",
+        "reserve_margin_pct": -21.39,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Spring 2026",
+        "reserve_margin_pct": 17.93,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Spring 2027",
+        "reserve_margin_pct": 7.12,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Spring 2028",
+        "reserve_margin_pct": -4.94,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Spring 2029",
+        "reserve_margin_pct": -15.79,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Spring 2030",
+        "reserve_margin_pct": -22.8,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Fall 2026",
+        "reserve_margin_pct": 43.58,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Fall 2027",
+        "reserve_margin_pct": 32.65,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Fall 2028",
+        "reserve_margin_pct": 12.8,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Fall 2029",
+        "reserve_margin_pct": 5.75,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      },
+      {
+        "label": "Fall 2030",
+        "reserve_margin_pct": -3.44,
+        "projected_demand_mw": null,
+        "confidence": "high"
+      }
+    ]
+  },
+  "near_term_forecast": {
+    "source": "ercot_pubapi",
+    "as_of": "2026-09-29T11:30:00+00:00",
+    "series": [
+      {
+        "date": "2026-10-01",
+        "peak_forecast_mw": 72417.3495
+      },
+      {
+        "date": "2026-10-02",
+        "peak_forecast_mw": 69878.2791
+      },
+      {
+        "date": "2026-10-03",
+        "peak_forecast_mw": 66620.5811
+      },
+      {
+        "date": "2026-10-04",
+        "peak_forecast_mw": 66342.7362
+      },
+      {
+        "date": "2026-10-05",
+        "peak_forecast_mw": 66287.1954
+      },
+      {
+        "date": "2026-10-06",
+        "peak_forecast_mw": 65558.261
+      }
+    ]
+  },
+  "weather": {
+    "active_alert_types": [
+      "Flood Watch",
+      "Special Weather Statement",
+      "Wind Advisory"
+    ],
+    "max_temp_f": 97.0,
+    "temp_deviation_f": null,
+    "as_of": "2026-09-29T12:29:23.486727+00:00",
+    "max_severity": "Severe"
+  },
+  "data_sources": [
+    {
+      "source": "eia_v2_demand",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:21.812791+00:00"
+    },
+    {
+      "source": "eia_v2_fuel_mix",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:22.874144+00:00"
+    },
+    {
+      "source": "eia_860m",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:22.875368+00:00"
+    },
+    {
+      "source": "noaa_nws",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:23.486707+00:00"
+    },
+    {
+      "source": "ercot_cdr",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:24.469311+00:00"
+    },
+    {
+      "source": "ercot_dam_prices",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:25.431934+00:00"
+    },
+    {
+      "source": "ercot_large_load",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:26.210060+00:00"
+    },
+    {
+      "source": "ercot_actual_load",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:27.052593+00:00"
+    },
+    {
+      "source": "ercot_load_forecast",
+      "status": "ok",
+      "last_success": "2026-09-29T12:29:28.031636+00:00"
+    }
+  ]
+}
