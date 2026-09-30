@@ -23,9 +23,6 @@ jobs:
       - uses: hacs/action@main
         with:
           category: integration
-          # Brand icons live in the separate home-assistant/brands repo and
-          # haven't been submitted yet.
-          ignore: brands
 
   tests:
     runs-on: ubuntu-latest
