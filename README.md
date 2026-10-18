@@ -1,10 +1,19 @@
 # GridVigil for Home Assistant
 
+[![Validate](https://github.com/kdigitalsystems/ha-gridvigil/actions/workflows/validate.yml/badge.svg)](https://github.com/kdigitalsystems/ha-gridvigil/actions/workflows/validate.yml)
+[![Release](https://img.shields.io/github/v/release/kdigitalsystems/ha-gridvigil)](https://github.com/kdigitalsystems/ha-gridvigil/releases)
+[![License](https://img.shields.io/github/license/kdigitalsystems/ha-gridvigil)](LICENSE)
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kdigitalsystems&repository=ha-gridvigil&category=integration)
+
 Live grid pressure for the 10 major U.S. power grids, in Home Assistant. Know when your grid is under strain, and automate around it: delay EV charging, pre-cool the house, or just get a heads-up before a heat wave tightens supply.
 
 Data comes from [GridVigil](https://gridvigil.com), which builds a 0-100 **Power Pressure Score** for each region from public EIA, grid operator, NERC and NOAA data. Free, no API key.
 
 Supported regions: ERCOT (Texas), PJM (Mid-Atlantic / Midwest), CAISO (California), MISO (Midcontinent), SPP (Southwest Power Pool), NYISO (New York), ISO-NE (New England), and the Southeast, Mountain West and Florida regions outside an ISO.
+
+## What it is, and what it isn't
+
+It is a read-only integration that turns GridVigil's published scores and grid data into Home Assistant sensors you can automate on. It does not control any device by itself, does not read your own electricity meter, and is not an official grid or emergency notice (see [About the data](#about-the-data)).
 
 ## Installation
 
